@@ -17,7 +17,7 @@ namespace TelegramBotGame.GameServer
         {
 
             HttpListener listener = new HttpListener();
-            listener.Prefixes.Add("http://localhost:8888/");
+            listener.Prefixes.Add("https://telegrambotgameserver.netlify.app/");
             listener.Start();
             Console.WriteLine("Ожидание подключений...");
             RunServer(listener);
