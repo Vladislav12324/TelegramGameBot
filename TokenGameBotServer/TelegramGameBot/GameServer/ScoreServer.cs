@@ -17,7 +17,7 @@ namespace TelegramBotGame.GameServer
         {
 
             HttpListener listener = new HttpListener();
-            listener.Prefixes.Add("https://telegram-game-bot.vercel.app/");
+            listener.Prefixes.Add("http://localhost:8888/");
             listener.Start();
             Console.WriteLine("Ожидание подключений...");
             RunServer(listener);
