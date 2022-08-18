@@ -1,0 +1,17 @@
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\BotServerApplication.exe
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\BotServerApplication.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\BotServerApplication.deps.json
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\BotServerApplication.runtimeconfig.json
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\BotServerApplication.pdb
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Telegram.Bot.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Telegram.Bot.Extensions.Polling.dll

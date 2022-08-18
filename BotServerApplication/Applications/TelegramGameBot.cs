@@ -6,7 +6,7 @@ namespace TelegramBotGame.Bot
 {
     public class TelegramGameBot
     {
-        private const string GameURL = "https://immortal-games.online/Games/Em/CoinSmash/";
+        private const string GameURL = "https://compassionate-mclean.31-31-196-202.plesk.page:8172/msdeploy.axd?site=compassionate-mclean.31-31-196-202.plesk.page";
         public TelegramBotClient BotClient;
 
         public TelegramGameBot()

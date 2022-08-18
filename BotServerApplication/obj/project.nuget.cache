@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HpCVv54VOCUiMTpYNp48uEUU1KT2kBxPcwMrHw6kzrl3QUM5SJawovMRd7UjS2U1Kyq1W0qd8GB76qZnUNebZQ==",
+  "dgSpecHash": "HdoJk1GkNC4bw99iBUm4ZQNAXpkm0Sz7cKkZVaYAi/qlc525OgDbXjgRtrzRUa27E/sBNnyauH6VeCGqzF9nlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Анастасия\\source\\repos\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj",
+  "projectFilePath": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Анастасия\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.8\\microsoft.aspnetcore.jsonpatch.6.0.8.nupkg.sha512",
     "C:\\Users\\Анастасия\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.8\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.8.nupkg.sha512",

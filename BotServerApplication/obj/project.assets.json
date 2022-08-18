@@ -527,11 +527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Анастасия\\source\\repos\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj",
+      "projectUniqueName": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj",
       "projectName": "BotServerApplication",
-      "projectPath": "C:\\Users\\Анастасия\\source\\repos\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj",
+      "projectPath": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj",
       "packagesPath": "C:\\Users\\Анастасия\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Анастасия\\source\\repos\\BotServerApplication\\BotServerApplication\\obj\\",
+      "outputPath": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Анастасия\\AppData\\Roaming\\NuGet\\NuGet.Config",
