@@ -5,6 +5,9 @@ C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\BotServerApplication.deps.json
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\BotServerApplication.runtimeconfig.json
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\BotServerApplication.pdb
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\ElmahCore.Mvc.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\ElmahCore.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\HtmlAgilityPack.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
@@ -13,5 +16,12 @@ C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\System.Data.SqlClient.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\System.Text.Json.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Telegram.Bot.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\Telegram.Bot.Extensions.Polling.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

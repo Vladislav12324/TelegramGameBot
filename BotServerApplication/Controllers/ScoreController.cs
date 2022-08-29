@@ -12,7 +12,7 @@ namespace BotServerApplication.Controllers
         public string Get([FromBody] RequestUserData data)
         {
             
-            var BotClient = new TelegramBotClient(ServerConstants.BotToken);
+            var BotClient = new TelegramBotClient(new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("AppSettings")["BotToken"]);
             var hightScores = BotClient.GetGameHighScoresAsync(data.UserId, data.MessageId);
             var userScoreList = new List<RequestUserData>();
                         
@@ -32,7 +32,7 @@ namespace BotServerApplication.Controllers
         [HttpPost]
         public void Post([FromBody] RequestUserData value)
         {
-            var BotClient = new TelegramBotClient(ServerConstants.BotToken);
+            var BotClient = new TelegramBotClient(new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("AppSettings")["BotToken"]);
             BotClient.SetGameScoreAsync(value.UserId, value.Score,
                 value.MessageId);
         }

@@ -1,4 +1,6 @@
 using TelegramBotGame.Runpoint;
+using ElmahCore;
+using ElmahCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,12 +8,23 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddControllers().AddNewtonsoftJson();
+builder.Services.AddElmah<XmlFileErrorLog>(o => o.LogPath = "~/logs");
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseCors(builder =>
+{
+    builder.AllowAnyOrigin()
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+}
+);
+
 var gameBotService = new GameBotService();
 gameBotService.Start();
 // Configure the HTTP request pipeline.
@@ -21,9 +34,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseHttpsRedirection();
-
+app.UseElmah();
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "48nQr4RSpzftKNNHfq+wmW2qxHeNemlOTjNhknJeuMQ=",
+  "Source": "BotServerApplication",
+  "BasePath": "_content/BotServerApplication",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
