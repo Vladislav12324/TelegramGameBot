@@ -1,0 +1,19 @@
+﻿<error errorId="54affc30-e04a-4951-aff1-b53d6c9cc6a4" application="BotServerApplication" host="DESKTOP-EQAQ4S6" type="Telegram.Bot.Exceptions.ApiRequestException" message="Conflict: terminated by other getUpdates request; make sure that only one bot instance is running" source="Telegram.Bot" detail="# caller: @C:\Sources\ElmahCore\ElmahCore\ElmahCore\Internal$\CallerInfo.cs:9&#xD;&#xA;Telegram.Bot.Exceptions.ApiRequestException: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running&#xD;&#xA;   at Telegram.Bot.TelegramBotClient.MakeRequestAsync[TResponse](IRequest`1 request, CancellationToken cancellationToken)&#xD;&#xA;   at Telegram.Bot.Extensions.Polling.DefaultUpdateReceiver.ReceiveAsync(IUpdateHandler updateHandler, CancellationToken cancellationToken)" time="2022-08-29T19:53:42.0523044Z">
+  <serverVariables>
+    <item name="Revision">
+      <value string="5" />
+    </item>
+    <item name="IsReadOnly">
+      <value string="False" />
+    </item>
+    <item name="Connection_RemotePort">
+      <value string="0" />
+    </item>
+    <item name="Connection_LocalPort">
+      <value string="0" />
+    </item>
+    <item name="HttpStatusCode">
+      <value string="0" />
+    </item>
+  </serverVariables>
+</error>
