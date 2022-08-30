@@ -1,0 +1,19 @@
+﻿<error errorId="9f93634b-35fd-46ad-a2f7-9b6e0e3ef1d9" application="BotServerApplication" host="DESKTOP-EQAQ4S6" type="Telegram.Bot.Exceptions.ApiRequestException" message="Bad Request: query is too old and response timeout expired or query ID is invalid" source="Telegram.Bot" detail="# caller: @C:\Sources\ElmahCore\ElmahCore\ElmahCore\Internal$\CallerInfo.cs:9&#xD;&#xA;Telegram.Bot.Exceptions.ApiRequestException: Bad Request: query is too old and response timeout expired or query ID is invalid&#xD;&#xA;   at Telegram.Bot.TelegramBotClient.MakeRequestAsync[TResponse](IRequest`1 request, CancellationToken cancellationToken)&#xD;&#xA;   at Telegram.Bot.TelegramBotClientExtensions.AnswerCallbackQueryAsync(ITelegramBotClient botClient, String callbackQueryId, String text, Nullable`1 showAlert, String url, Nullable`1 cacheTime, CancellationToken cancellationToken)&#xD;&#xA;   at TelegramBotGame.Bot.TelegramGameBot.HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken) in C:\GitUnity\BotServerApplication\BotServerApplication\Applications\TelegramGameBot.cs:line 32&#xD;&#xA;   at Telegram.Bot.Extensions.Polling.DefaultUpdateHandler.HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)&#xD;&#xA;   at Telegram.Bot.Extensions.Polling.DefaultUpdateReceiver.ReceiveAsync(IUpdateHandler updateHandler, CancellationToken cancellationToken)&#xD;&#xA;   at Telegram.Bot.TelegramBotClientPollingExtensions.ReceiveAsync(ITelegramBotClient botClient, IUpdateHandler updateHandler, ReceiverOptions receiverOptions, CancellationToken cancellationToken)&#xD;&#xA;   at Telegram.Bot.TelegramBotClientPollingExtensions.&lt;&gt;c__DisplayClass3_0.&lt;&lt;StartReceiving&gt;b__0&gt;d.MoveNext()" time="2022-08-30T14:39:34.2844884Z">
+  <serverVariables>
+    <item name="Revision">
+      <value string="5" />
+    </item>
+    <item name="IsReadOnly">
+      <value string="False" />
+    </item>
+    <item name="Connection_RemotePort">
+      <value string="0" />
+    </item>
+    <item name="Connection_LocalPort">
+      <value string="0" />
+    </item>
+    <item name="HttpStatusCode">
+      <value string="0" />
+    </item>
+  </serverVariables>
+</error>

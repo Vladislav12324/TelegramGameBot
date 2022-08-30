@@ -8,27 +8,23 @@ namespace BotServerApplication.Controllers
     public class GetImageController : ControllerBase
     {
         [HttpGet]
-        public Task<FileStreamResult> Get(string link)
+        public async Task<FileStreamResult> Get(string link)
         {
-            return StreamDownload(link);
-        }
-
-        public async Task<FileStreamResult> StreamDownload(string url)
-        {
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(link);
             request.Method = "GET";
-
+    
             WebResponse response = request.GetResponse();
             Stream stream = response.GetResponseStream();
-
-            
-
-            return new FileStreamResult(stream, "application/octet-stream")
+    
+    
+    
+            FileStreamResult fileStreamResult = new FileStreamResult(stream, "application/octet-stream")
             {
-                FileDownloadName = Path.GetFileName(url)
+                FileDownloadName = Path.GetFileName(link)
             };
+            return fileStreamResult;
         }
-    }
+        }
 
     
 }

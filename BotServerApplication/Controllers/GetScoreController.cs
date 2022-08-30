@@ -12,7 +12,7 @@ namespace BotServerApplication.Controllers
         [HttpPost]
         public string Post([FromBody] RequestUserData data)
         {
-            var BotClient = new TelegramBotClient(new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("AppSettings")["BotToken"]);
+            var BotClient = TelegramBotSingleton.TelegramClient;
             var hightScores = BotClient.GetGameHighScoresAsync(data.UserId, data.MessageId);
             var userScoreList = new List<RequestUserData>();
 
