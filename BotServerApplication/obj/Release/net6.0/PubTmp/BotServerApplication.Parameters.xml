@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="compassionate-mclean.31-31-196-202.plesk.page" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="britishellietest-001-site1" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\GitUnity\\BotServerApplication\\BotServerApplication\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

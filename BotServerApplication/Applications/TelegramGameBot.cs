@@ -32,11 +32,16 @@ namespace TelegramBotGame.Bot
                 botClient.AnswerCallbackQueryAsync(update.CallbackQuery.Id, null, null, gameUrlWithParams);
 
             }
+            else
+            {
+                Console.WriteLine("AAA");
+                HandleErrorAsync(botClient, new Exception("TEST EXCEPTION!!!"), cancellationToken);
+            }
         }
 
         public static async Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
         {
-            Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(exception));
+            Console.WriteLine(exception);
             ElmahExtensions.RaiseError(exception);
         }
     }

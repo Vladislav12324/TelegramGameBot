@@ -14,7 +14,3 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\GitUnity\BotServerApplication\BotServerApplication
 build_property._RazorSourceGeneratorDebug = 
-
-[C:/GitUnity/BotServerApplication/BotServerApplication/App_Data/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXBwX0RhdGFcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 

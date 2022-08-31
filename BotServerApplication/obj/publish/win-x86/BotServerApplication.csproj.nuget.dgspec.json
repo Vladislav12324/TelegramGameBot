@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj": {}
+  },
+  "projects": {
+    "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj",
+        "projectName": "BotServerApplication",
+        "projectPath": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj",
+        "packagesPath": "C:\\Users\\Анастасия\\.nuget\\packages\\",
+        "outputPath": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\obj\\publish\\win-x86\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Анастасия\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ElmahCore": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
+            "Telegram.Bot.Extensions.Polling": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[6.0.7, 6.0.7]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[6.0.7, 6.0.7]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[6.0.7, 6.0.7]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

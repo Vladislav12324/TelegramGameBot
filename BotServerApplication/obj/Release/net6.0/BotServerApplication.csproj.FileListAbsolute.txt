@@ -31,8 +31,6 @@ C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\refint\
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\BotServerApplication.pdb
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\BotServerApplication.genruntimeconfig.cache
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\ref\BotServerApplication.dll
-C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\BotServerApplication.RazorAssemblyInfo.cache
-C:\GitUnity\BotServerApplication\BotServerApplication\obj\Release\net6.0\BotServerApplication.RazorAssemblyInfo.cs
 C:\GitUnity\BotServerApplication\BotServerApplication\bin\Release\net6.0\ElmahCore.Mvc.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\bin\Release\net6.0\ElmahCore.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\bin\Release\net6.0\HtmlAgilityPack.dll
