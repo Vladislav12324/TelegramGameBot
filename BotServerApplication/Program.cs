@@ -18,7 +18,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-
+app.UseStaticFiles();
 
 app.UseCors(builder =>
 {

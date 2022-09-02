@@ -64,8 +64,6 @@ C:\GitUnity\BotServerApplication\BotServerApplication\obj\Debug\net6.0\refint\Bo
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Debug\net6.0\BotServerApplication.pdb
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Debug\net6.0\BotServerApplication.genruntimeconfig.cache
 C:\GitUnity\BotServerApplication\BotServerApplication\obj\Debug\net6.0\ref\BotServerApplication.dll
-C:\GitUnity\BotServerApplication\BotServerApplication\obj\Debug\net6.0\BotServerApplication.RazorAssemblyInfo.cache
-C:\GitUnity\BotServerApplication\BotServerApplication\obj\Debug\net6.0\BotServerApplication.RazorAssemblyInfo.cs
 C:\GitUnity\BotServerApplication\BotServerApplication\bin\Debug\net6.0\ElmahCore.Mvc.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\bin\Debug\net6.0\ElmahCore.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\bin\Debug\net6.0\HtmlAgilityPack.dll
@@ -76,3 +74,4 @@ C:\GitUnity\BotServerApplication\BotServerApplication\bin\Debug\net6.0\runtimes\
 C:\GitUnity\BotServerApplication\BotServerApplication\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\GitUnity\BotServerApplication\BotServerApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\GitUnity\BotServerApplication\BotServerApplication\bin\Debug\net6.0\BotServerApplication.staticwebassets.runtime.json

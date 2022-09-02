@@ -3,7 +3,7 @@
 
 namespace BotServerApplication.Controllers
 {
-    [Route("/.well-known/pki-validation/E9BB6DFC254B9A03B4F6C16C2FB23480.txt")]
+    [Route("/.well-known/pki-validation/7CF7ADF97560B703A02047F1EBE42951.txt")]
     [ApiController]
     public class TestController : ControllerBase
     {
@@ -16,14 +16,10 @@ namespace BotServerApplication.Controllers
        }
        
        [HttpGet]
-       public PhysicalFileResult Get()
+       public VirtualFileResult Get()
        {
-           string file_path = Path.Combine(_appEnvironment.ContentRootPath, "logs/E9BB6DFC254B9A03B4F6C16C2FB23480.txt");
-           // Тип файла - content-type
-           string file_type = "application/txt";
-           // Имя файла - необязательно
-           string file_name = "E9BB6DFC254B9A03B4F6C16C2FB23480.txt";
-           return PhysicalFile(file_path, file_type, file_name);
+            var filepath = Path.Combine("~/", "7CF7ADF97560B703A02047F1EBE42951.txt");
+            return File(filepath, "text/plain", "7CF7ADF97560B703A02047F1EBE42951.txt");
         }
     }
 }

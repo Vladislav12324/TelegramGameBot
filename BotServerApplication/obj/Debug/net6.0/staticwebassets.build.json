@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "oYTP36xAX3c7pBkNTLDW8aITVEiSUgp3ZZkUzIY19aE=",
+  "Hash": "5NicldZDY9cRLYzuQTsA+fyEWs4+HfUqtBSPdkdA/g8=",
   "Source": "BotServerApplication",
   "BasePath": "_content/BotServerApplication",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "BotServerApplication\\wwwroot",
+      "Source": "BotServerApplication",
+      "ContentRoot": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\wwwroot\\",
+      "BasePath": "_content/BotServerApplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\wwwroot\\7CF7ADF97560B703A02047F1EBE42951.txt",
+      "SourceId": "BotServerApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\wwwroot\\",
+      "BasePath": "_content/BotServerApplication",
+      "RelativePath": "7CF7ADF97560B703A02047F1EBE42951.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\7CF7ADF97560B703A02047F1EBE42951.txt"
+    }
+  ]
 }
