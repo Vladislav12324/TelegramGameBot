@@ -10,21 +10,26 @@ namespace BotServerApplication.Controllers
         [HttpGet]
         public async Task<FileStreamResult> Get(string link)
         {
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(link);
-            request.Method = "GET";
-    
-            WebResponse response = request.GetResponse();
-            Stream stream = response.GetResponseStream();
-    
-    
-    
-            FileStreamResult fileStreamResult = new FileStreamResult(stream, "application/octet-stream")
+            if(link != null || link != "")
             {
-                FileDownloadName = Path.GetFileName(link)
-            };
-            return fileStreamResult;
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(link);
+                request.Method = "GET";
+
+                WebResponse response = request.GetResponse();
+                Stream stream = response.GetResponseStream();
+
+
+
+                FileStreamResult fileStreamResult = new FileStreamResult(stream, "application/octet-stream")
+                {
+                    FileDownloadName = Path.GetFileName(link)
+                };
+                return fileStreamResult;
+            }
+            
+            return null;
         }
-        }
+       }
 
     
 }
