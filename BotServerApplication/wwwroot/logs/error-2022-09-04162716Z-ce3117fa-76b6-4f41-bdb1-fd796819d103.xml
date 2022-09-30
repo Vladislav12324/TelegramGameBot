@@ -1,0 +1,126 @@
+﻿<error errorId="ce3117fa-76b6-4f41-bdb1-fd796819d103" application="BotServerApplication" host="DESKTOP-EQAQ4S6" type="Telegram.Bot.Exceptions.ApiRequestException" message="Bad Request: MESSAGE_ID_INVALID" source="Telegram.Bot" detail="# caller: @C:\Sources\ElmahCore\ElmahCore\ElmahCore\Internal$\CallerInfo.cs:9&#xD;&#xA;System.AggregateException: One or more errors occurred. (Bad Request: MESSAGE_ID_INVALID)&#xD;&#xA; ---&gt; Telegram.Bot.Exceptions.ApiRequestException: Bad Request: MESSAGE_ID_INVALID&#xD;&#xA;   at Telegram.Bot.TelegramBotClient.MakeRequestAsync[TResponse](IRequest`1 request, CancellationToken cancellationToken)&#xD;&#xA;   at Telegram.Bot.TelegramBotClientExtensions.GetGameHighScoresAsync(ITelegramBotClient botClient, Int64 userId, String inlineMessageId, CancellationToken cancellationToken)&#xD;&#xA;   --- End of inner exception stack trace ---&#xD;&#xA;   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)&#xD;&#xA;   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)&#xD;&#xA;   at BotServerApplication.Controllers.GetScoreController.Post(RequestUserData data) in C:\GitUnity\BotServerApplication\BotServerApplication\Controllers\GetScoreController.cs:line 22&#xD;&#xA;   at lambda_method29(Closure , Object , Object[] )&#xD;&#xA;   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)&#xD;&#xA;   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()&#xD;&#xA;   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)&#xD;&#xA;   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()&#xD;&#xA;--- End of stack trace from previous location ---&#xD;&#xA;   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)&#xD;&#xA;   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)&#xD;&#xA;   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()&#xD;&#xA;--- End of stack trace from previous location ---&#xD;&#xA;   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;&#xA;   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;&#xA;   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;&#xA;   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)&#xD;&#xA;   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)&#xD;&#xA;   at ElmahCore.Mvc.ErrorLogMiddleware.InvokeAsync(HttpContext context)" time="2022-09-04T16:27:16.5941269Z" statusCode="500">
+  <serverVariables>
+    <item name="RequestTimedOut">
+      <value string="False" />
+    </item>
+    <item name="MinResponseDataRate">
+      <value string="Bytes per second: 240, Grace Period: 00:00:05" />
+    </item>
+    <item name="ConnectionIdFeature">
+      <value string="0HMKEI98KE8CB" />
+    </item>
+    <item name="HasStartedConsumingRequestBody">
+      <value string="True" />
+    </item>
+    <item name="MaxRequestBodySize">
+      <value string="30000000" />
+    </item>
+    <item name="MinRequestBodyDataRate">
+      <value string="Bytes per second: 240, Grace Period: 00:00:05" />
+    </item>
+    <item name="AllowSynchronousIO">
+      <value string="False" />
+    </item>
+    <item name="TraceIdentifier">
+      <value string="0HMKEI98KE8CB:00000002" />
+    </item>
+    <item name="IsUpgradableRequest">
+      <value string="False" />
+    </item>
+    <item name="IsUpgraded">
+      <value string="False" />
+    </item>
+    <item name="RemoteIpAddress">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="RemotePort">
+      <value string="56635" />
+    </item>
+    <item name="LocalIpAddress">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="LocalPort">
+      <value string="7073" />
+    </item>
+    <item name="Scheme">
+      <value string="https" />
+    </item>
+    <item name="Method">
+      <value string="Post" />
+    </item>
+    <item name="MethodText">
+      <value string="POST" />
+    </item>
+    <item name="Path">
+      <value string="/api/GetScore" />
+    </item>
+    <item name="QueryString">
+      <value string="" />
+    </item>
+    <item name="RawTarget">
+      <value string="/api/GetScore" />
+    </item>
+    <item name="HttpVersion">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="Header_Accept">
+      <value string="*/*" />
+    </item>
+    <item name="Header_Host">
+      <value string="localhost:7073" />
+    </item>
+    <item name="Header_User-Agent">
+      <value string="UnityPlayer/2020.3.36f1 (UnityWebRequest/1.0, libcurl/7.80.0-DEV)" />
+    </item>
+    <item name="Header_Accept-Encoding">
+      <value string="deflate, gzip" />
+    </item>
+    <item name="Header_Content-Type">
+      <value string="application/json" />
+    </item>
+    <item name="Header_Content-Length">
+      <value string="136" />
+    </item>
+    <item name="Header_X-Unity-Version">
+      <value string="2020.3.36f1" />
+    </item>
+    <item name="RequestTrailersAvailable">
+      <value string="True" />
+    </item>
+    <item name="StatusCode">
+      <value string="200" />
+    </item>
+    <item name="HasResponseStarted">
+      <value string="False" />
+    </item>
+    <item name="HasFlushedHeaders">
+      <value string="False" />
+    </item>
+    <item name="HasResponseCompleted">
+      <value string="False" />
+    </item>
+    <item name="Connection_Id">
+      <value string="0HMKEI98KE8CB" />
+    </item>
+    <item name="Connection_RemoteIpAddress">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="Connection_RemotePort">
+      <value string="56635" />
+    </item>
+    <item name="Connection_LocalIpAddress">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="Connection_LocalPort">
+      <value string="7073" />
+    </item>
+    <item name="HttpStatusCode">
+      <value string="500" />
+    </item>
+  </serverVariables>
+  <form>
+    <item name="$request-body">
+      <value string="{&quot;UserId&quot;:1419158298,&quot;MessageId&quot;:&quot;AgAAAD1wAAAao5ZUgqt-Y5mDhVM&quot;,&quot;UserName&quot;:&quot;&quot;,&quot;Score&quot;:0,&quot;UserPhotoLink&quot;:&quot;&quot;,&quot;ChatId&quot;:-1929436822581208416}" />
+    </item>
+  </form>
+</error>
