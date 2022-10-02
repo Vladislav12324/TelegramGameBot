@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj": {}
+    "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj": {}
   },
   "projects": {
-    "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj": {
+    "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj",
+        "projectUniqueName": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
         "projectName": "BotServerApplication",
-        "projectPath": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\BotServerApplication.csproj",
-        "packagesPath": "C:\\Users\\Анастасия\\.nuget\\packages\\",
-        "outputPath": "C:\\GitUnity\\BotServerApplication\\BotServerApplication\\obj\\",
+        "projectPath": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
+        "packagesPath": "C:\\Users\\visne\\.nuget\\packages\\",
+        "outputPath": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Анастасия\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\visne\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -83,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,9 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.StaticFiles;
+using System.Diagnostics;
+using System.Net.Mime;
+using System.Web;
+using Telegram.Bot.Types;
+using static System.Net.Mime.MediaTypeNames;
 
 
 namespace BotServerApplication.Controllers
 {
-    [Route("/.well-known/pki-validation/7CF7ADF97560B703A02047F1EBE42951.txt")]
+    [Route("/GameAssets")]
     [ApiController]
     public class TestController : ControllerBase
     {
@@ -16,10 +22,22 @@ namespace BotServerApplication.Controllers
        }
        
        [HttpGet]
-       public VirtualFileResult Get()
+       public VirtualFileResult Get(string param)
        {
-            var filepath = Path.Combine("~/", "7CF7ADF97560B703A02047F1EBE42951.txt");
-            return File(filepath, "text/plain", "7CF7ADF97560B703A02047F1EBE42951.txt");
+            var filepath = Path.Combine("~/", param);
+            string contentType;
+            Console.WriteLine(param.Split(".")[1]);
+            if (param.Split(".")[1]=="wasm")
+            {
+                Console.WriteLine("AAA");
+                contentType = "application/wasm";
+            }
+            else
+            {
+                contentType = "text/plain";
+            }
+            //new FileExtensionContentTypeProvider().TryGetContentType(param, out var contentType);
+            return File(filepath, contentType, param);
         }
     }
 }

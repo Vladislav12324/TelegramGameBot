@@ -19,6 +19,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 app.UseStaticFiles();
+app.UseFileServer(enableDirectoryBrowsing: true);
 
 app.UseCors(builder =>
 {
