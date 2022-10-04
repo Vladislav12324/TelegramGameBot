@@ -20,31 +20,11 @@ public class HandleUpdateService
 
     public async Task EchoAsync(Update update)
     {
-        var handler = update.Type switch
+        if(update.CallbackQuery.IsGameQuery)
         {
-            // UpdateType.Unknown:
-            // UpdateType.ChannelPost:
-            // UpdateType.EditedChannelPost:
-            // UpdateType.ShippingQuery:
-            // UpdateType.PreCheckoutQuery:
-            // UpdateType.Poll:
-            UpdateType.Message            => BotOnMessageReceived(update.Message!),
-            UpdateType.EditedMessage      => BotOnMessageReceived(update.EditedMessage!),
-            UpdateType.CallbackQuery      => BotOnCallbackQueryReceived(update.CallbackQuery!),
-            UpdateType.InlineQuery        => BotOnInlineQueryReceived(update.InlineQuery!),
-            UpdateType.ChosenInlineResult => BotOnChosenInlineResultReceived(update.ChosenInlineResult!),
-            _                             => UnknownUpdateHandlerAsync(update)
-        };
-
-        try
-        {
-            await handler;
-        }
-        #pragma warning disable CA1031
-        catch (Exception exception)
-        #pragma warning restore CA1031
-        {
-            await HandleErrorAsync(exception);
+            var gameUrlWithParams = string.Format("https://coingames.site/Game" + "?userId={0}&messageId={1}&chatId={2}",
+                    update.CallbackQuery.From.Id, update.CallbackQuery.InlineMessageId, update.CallbackQuery.ChatInstance);
+            await _botClient.AnswerCallbackQueryAsync(update.CallbackQuery.Id, null, null, gameUrlWithParams);
         }
     }
 

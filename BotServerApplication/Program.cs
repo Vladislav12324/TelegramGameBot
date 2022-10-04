@@ -69,7 +69,7 @@ app.UseEndpoints(endpoints =>
     var token = botConfig.BotToken;
     endpoints.MapControllerRoute(name: "tgwebhook",
                                  pattern: $"bot/{token}",
-                                 new { controller = "Webhook", action = "Post" });
+                                 new { controller = "Menu", action = "Post" });
     endpoints.MapControllers();
 });
 
