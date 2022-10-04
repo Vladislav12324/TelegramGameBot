@@ -58,23 +58,20 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseElmah();
 app.UseAuthorization();
-app.MapControllers();
 
 //___________________________BOT________________________
 
-
+app.MapControllers();
 
 app.UseEndpoints(endpoints =>
 {
     var token = botConfig.BotToken;
     endpoints.MapControllerRoute(name: "tgwebhook",
                                  pattern: $"bot/{token}",
-                                 new { controller = "Menu", action = "Post" });
+                                 new { controller = "Webhook", action = "Post" });
     endpoints.MapControllers();
 });
 
 TelegramBotSingleton.TelegramClient = new TelegramBotClient(new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("AppSettings")["BotToken"]);
-//var gameBotService = new GameBotService(new TelegramGameBot());
-//gameBotService.Start();
 
 app.Run();

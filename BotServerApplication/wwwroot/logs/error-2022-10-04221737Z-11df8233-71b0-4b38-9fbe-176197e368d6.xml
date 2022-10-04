@@ -1,0 +1,121 @@
+﻿<error errorId="11df8233-71b0-4b38-9fbe-176197e368d6" application="BotServerApplication" host="DESKTOP-CHGKC3C" type="HTTP" message="UnsupportedMediaType" detail="# caller: @C:\Sources\ElmahCore\ElmahCore\ElmahCore\Internal$\CallerInfo.cs:9&#xD;&#xA;ElmahCore.HttpException: UnsupportedMediaType" time="2022-10-04T22:17:37.1163149Z" statusCode="415">
+  <serverVariables>
+    <item name="RequestTimedOut">
+      <value string="False" />
+    </item>
+    <item name="MinResponseDataRate">
+      <value string="Bytes per second: 240, Grace Period: 00:00:05" />
+    </item>
+    <item name="ConnectionIdFeature">
+      <value string="0HML6AOCNQ103" />
+    </item>
+    <item name="HasStartedConsumingRequestBody">
+      <value string="False" />
+    </item>
+    <item name="MaxRequestBodySize">
+      <value string="30000000" />
+    </item>
+    <item name="MinRequestBodyDataRate">
+      <value string="Bytes per second: 240, Grace Period: 00:00:05" />
+    </item>
+    <item name="AllowSynchronousIO">
+      <value string="False" />
+    </item>
+    <item name="TraceIdentifier">
+      <value string="0HML6AOCNQ103:00000002" />
+    </item>
+    <item name="IsUpgradableRequest">
+      <value string="False" />
+    </item>
+    <item name="IsUpgraded">
+      <value string="False" />
+    </item>
+    <item name="RemoteIpAddress">
+      <value string="::1" />
+    </item>
+    <item name="RemotePort">
+      <value string="60949" />
+    </item>
+    <item name="LocalIpAddress">
+      <value string="::1" />
+    </item>
+    <item name="LocalPort">
+      <value string="7073" />
+    </item>
+    <item name="Scheme">
+      <value string="https" />
+    </item>
+    <item name="Method">
+      <value string="Post" />
+    </item>
+    <item name="MethodText">
+      <value string="POST" />
+    </item>
+    <item name="Path">
+      <value string="/bot/5466348036:AAG9eASwBfgUitfD_2aCFk1Zx3iDFo5NF_U" />
+    </item>
+    <item name="QueryString">
+      <value string="" />
+    </item>
+    <item name="RawTarget">
+      <value string="/bot/5466348036:AAG9eASwBfgUitfD_2aCFk1Zx3iDFo5NF_U" />
+    </item>
+    <item name="HttpVersion">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="Header_Accept">
+      <value string="*/*" />
+    </item>
+    <item name="Header_Connection">
+      <value string="keep-alive" />
+    </item>
+    <item name="Header_Host">
+      <value string="localhost:7073" />
+    </item>
+    <item name="Header_User-Agent">
+      <value string="PostmanRuntime/7.29.2" />
+    </item>
+    <item name="Header_Accept-Encoding">
+      <value string="gzip, deflate, br" />
+    </item>
+    <item name="Header_Content-Length">
+      <value string="0" />
+    </item>
+    <item name="Header_Postman-Token">
+      <value string="94e7e3e4-244a-431f-b96d-605df6e8a35a" />
+    </item>
+    <item name="RequestTrailersAvailable">
+      <value string="False" />
+    </item>
+    <item name="StatusCode">
+      <value string="415" />
+    </item>
+    <item name="HasResponseStarted">
+      <value string="False" />
+    </item>
+    <item name="HasFlushedHeaders">
+      <value string="False" />
+    </item>
+    <item name="HasResponseCompleted">
+      <value string="False" />
+    </item>
+    <item name="Connection_Id">
+      <value string="0HML6AOCNQ103" />
+    </item>
+    <item name="Connection_RemoteIpAddress">
+      <value string="::1" />
+    </item>
+    <item name="Connection_RemotePort">
+      <value string="60949" />
+    </item>
+    <item name="Connection_LocalIpAddress">
+      <value string="::1" />
+    </item>
+    <item name="Connection_LocalPort">
+      <value string="7073" />
+    </item>
+    <item name="HttpStatusCode">
+      <value string="415" />
+    </item>
+  </serverVariables>
+</error>

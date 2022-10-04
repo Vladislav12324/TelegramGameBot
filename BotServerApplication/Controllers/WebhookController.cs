@@ -7,14 +7,13 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace BotServerApplication.Controllers
 {
-    [ApiController]
-    public class MenuController : ControllerBase
+    public class WebhookController : ControllerBase
     {
         [HttpPost]
         public async Task<IActionResult> Post([FromServices] HandleUpdateService handleUpdateService,
                                           [FromBody] Update update)
         {
-
+            Console.WriteLine("AAA");
             await handleUpdateService.EchoAsync(update);
 
             return Ok();
