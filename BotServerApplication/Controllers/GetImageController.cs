@@ -18,8 +18,6 @@ namespace BotServerApplication.Controllers
                 WebResponse response = request.GetResponse();
                 Stream stream = response.GetResponseStream();
 
-
-
                 FileStreamResult fileStreamResult = new FileStreamResult(stream, "application/octet-stream")
                 {
                     FileDownloadName = Path.GetFileName(link)

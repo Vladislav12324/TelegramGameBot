@@ -9,7 +9,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace BotServerApplication.Controllers
 {
-    [Route("/GameAssets")]
+    //[Route("/GameAssets")]
     [ApiController]
     public class TestController : ControllerBase
     {
@@ -21,23 +21,23 @@ namespace BotServerApplication.Controllers
            _appEnvironment = appEnvironment;
        }
        
-       [HttpGet]
-       public VirtualFileResult Get(string param)
-       {
-            var filepath = Path.Combine("~/", param);
-            string contentType;
-            Console.WriteLine(param.Split(".")[1]);
-            if (param.Split(".")[1]=="wasm")
-            {
-                Console.WriteLine("AAA");
-                contentType = "application/wasm";
-            }
-            else
-            {
-                contentType = "text/plain";
-            }
-            //new FileExtensionContentTypeProvider().TryGetContentType(param, out var contentType);
-            return File(filepath, contentType, param);
-        }
+      //[HttpGet]
+      //ublic VirtualFileResult Get(string param)
+      //
+      //    var filepath = Path.Combine("~/", param);
+      //    string contentType;
+      //    Console.WriteLine(param.Split(".")[1]);
+      //    if (param.Split(".")[1]=="wasm")
+      //    {
+      //        Console.WriteLine("AAA");
+      //        contentType = "application/wasm";
+      //    }
+      //    else
+      //    {
+      //        contentType = "text/plain";
+      //    }
+      //    //new FileExtensionContentTypeProvider().TryGetContentType(param, out var contentType);
+      //    return File(filepath, contentType, param);
+      //}
     }
 }
