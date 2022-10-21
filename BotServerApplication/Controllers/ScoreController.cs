@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using Telegram.Bot;
+using Telegram.Bot.Examples.WebHook.Services;
 
 namespace BotServerApplication.Controllers
 {
@@ -10,9 +11,9 @@ namespace BotServerApplication.Controllers
     {
        
         [HttpPost]
-        public void Post([FromBody] RequestUserData value)
+        public void Post([FromServices] HandleUpdateService handleUpdateService,[FromBody] RequestUserData value)
         {
-            var BotClient = TelegramBotSingleton.TelegramClient;
+            var BotClient = handleUpdateService._botClient;
             BotClient.SetGameScoreAsync(value.UserId, value.Score,
                 value.MessageId);
         }

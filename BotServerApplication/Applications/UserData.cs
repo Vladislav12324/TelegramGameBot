@@ -42,7 +42,7 @@ public class UserData
         {
             var photoId = userPhotos.Result.Photos[0][0].FileId;
             var filePath = _bot.GetFileAsync(photoId).Result.FilePath;
-            RequestData.UserPhotoLink = string.Format("https://api.telegram.org/file/bot5518492256:AAGvTK6fMsBdT1Wux_GrhaXOVx-8j_Ee_Qg/{0}", filePath);
+            RequestData.UserPhotoLink = string.Format("https://api.telegram.org/file/bot5466348036:AAG9eASwBfgUitfD_2aCFk1Zx3iDFo5NF_U/{0}", filePath);
             return RequestData.UserPhotoLink;
         }
         return null;

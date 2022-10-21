@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QGSdDkAtHl4opNke2x4EvroZ5NuuFFCRF+iWOg/o75I=",
+  "Hash": "Hff8Rckkq1yklbN5Dzgb3Cg7vCmLY/xbbx0N09ZBHw8=",
   "Source": "BotServerApplication",
   "BasePath": "_content/BotServerApplication",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BotServerApplication\\wwwroot",
       "Source": "BotServerApplication",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\7CF7ADF97560B703A02047F1EBE42951.txt",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\7CF7ADF97560B703A02047F1EBE42951.txt",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "7CF7ADF97560B703A02047F1EBE42951.txt",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\7CF7ADF97560B703A02047F1EBE42951.txt"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\Build\\CoinMergeBuild.data",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\Build\\CoinMergeBuild.data",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/Build/CoinMergeBuild.data",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\Build\\CoinMergeBuild.data"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\Build\\CoinMergeBuild.framework.js",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\Build\\CoinMergeBuild.framework.js",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/Build/CoinMergeBuild.framework.js",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\Build\\CoinMergeBuild.framework.js"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\Build\\CoinMergeBuild.loader.js",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\Build\\CoinMergeBuild.loader.js",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/Build/CoinMergeBuild.loader.js",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\Build\\CoinMergeBuild.loader.js"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\Build\\CoinMergeBuild.wasm",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\Build\\CoinMergeBuild.wasm",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/Build/CoinMergeBuild.wasm",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\Build\\CoinMergeBuild.wasm"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\index.html",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\index.html",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/index.html",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\index.html"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\favicon.ico",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\favicon.ico",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/TemplateData/favicon.ico",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\TemplateData\\favicon.ico"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\fullscreen-button.png",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\fullscreen-button.png",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/TemplateData/fullscreen-button.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\TemplateData\\fullscreen-button.png"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\progress-bar-empty-dark.png",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\progress-bar-empty-dark.png",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/TemplateData/progress-bar-empty-dark.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\TemplateData\\progress-bar-empty-dark.png"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\progress-bar-empty-light.png",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\progress-bar-empty-light.png",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/TemplateData/progress-bar-empty-light.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\TemplateData\\progress-bar-empty-light.png"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\progress-bar-full-dark.png",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\progress-bar-full-dark.png",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/TemplateData/progress-bar-full-dark.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\TemplateData\\progress-bar-full-dark.png"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\progress-bar-full-light.png",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\progress-bar-full-light.png",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/TemplateData/progress-bar-full-light.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\TemplateData\\progress-bar-full-light.png"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\style.css",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\style.css",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/TemplateData/style.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\TemplateData\\style.css"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\unity-logo-dark.png",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\unity-logo-dark.png",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/TemplateData/unity-logo-dark.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\TemplateData\\unity-logo-dark.png"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\unity-logo-light.png",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\unity-logo-light.png",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/TemplateData/unity-logo-light.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\TemplateData\\unity-logo-light.png"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\webgl-logo.png",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\Game\\TemplateData\\webgl-logo.png",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "Game/TemplateData/webgl-logo.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Game\\TemplateData\\webgl-logo.png"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04144403Z-a776b5ec-b62e-49fb-8262-9d154011cbae.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04144403Z-a776b5ec-b62e-49fb-8262-9d154011cbae.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-09-04144403Z-a776b5ec-b62e-49fb-8262-9d154011cbae.xml",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-09-04144403Z-a776b5ec-b62e-49fb-8262-9d154011cbae.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04144406Z-f8df477e-9fc1-4cce-8396-1c537949622e.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04144406Z-f8df477e-9fc1-4cce-8396-1c537949622e.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-09-04144406Z-f8df477e-9fc1-4cce-8396-1c537949622e.xml",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-09-04144406Z-f8df477e-9fc1-4cce-8396-1c537949622e.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04144409Z-290547d2-9666-4fca-8e57-915cd4736b91.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04144409Z-290547d2-9666-4fca-8e57-915cd4736b91.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-09-04144409Z-290547d2-9666-4fca-8e57-915cd4736b91.xml",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-09-04144409Z-290547d2-9666-4fca-8e57-915cd4736b91.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04144412Z-418cd787-f4be-4525-b516-f8a08ae48959.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04144412Z-418cd787-f4be-4525-b516-f8a08ae48959.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-09-04144412Z-418cd787-f4be-4525-b516-f8a08ae48959.xml",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-09-04144412Z-418cd787-f4be-4525-b516-f8a08ae48959.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04162438Z-be20684d-a0cd-4bb7-b0a5-3bcccf14ea3b.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04162438Z-be20684d-a0cd-4bb7-b0a5-3bcccf14ea3b.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-09-04162438Z-be20684d-a0cd-4bb7-b0a5-3bcccf14ea3b.xml",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-09-04162438Z-be20684d-a0cd-4bb7-b0a5-3bcccf14ea3b.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04162515Z-a4ab3457-9dc8-4252-a5b7-17e52b405587.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04162515Z-a4ab3457-9dc8-4252-a5b7-17e52b405587.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-09-04162515Z-a4ab3457-9dc8-4252-a5b7-17e52b405587.xml",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-09-04162515Z-a4ab3457-9dc8-4252-a5b7-17e52b405587.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04162716Z-ce3117fa-76b6-4f41-bdb1-fd796819d103.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04162716Z-ce3117fa-76b6-4f41-bdb1-fd796819d103.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-09-04162716Z-ce3117fa-76b6-4f41-bdb1-fd796819d103.xml",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-09-04162716Z-ce3117fa-76b6-4f41-bdb1-fd796819d103.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04162828Z-d2500296-5fdc-4a11-8707-13ea69291c88.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04162828Z-d2500296-5fdc-4a11-8707-13ea69291c88.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-09-04162828Z-d2500296-5fdc-4a11-8707-13ea69291c88.xml",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-09-04162828Z-d2500296-5fdc-4a11-8707-13ea69291c88.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04162925Z-ac2e28a4-a56e-4fdc-8594-0856a4c70366.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04162925Z-ac2e28a4-a56e-4fdc-8594-0856a4c70366.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-09-04162925Z-ac2e28a4-a56e-4fdc-8594-0856a4c70366.xml",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-09-04162925Z-ac2e28a4-a56e-4fdc-8594-0856a4c70366.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04163419Z-edec2ed6-f166-4c78-ac97-eb062cbab4a2.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-09-04163419Z-edec2ed6-f166-4c78-ac97-eb062cbab4a2.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-09-04163419Z-edec2ed6-f166-4c78-ac97-eb062cbab4a2.xml",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-09-04163419Z-edec2ed6-f166-4c78-ac97-eb062cbab4a2.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01172233Z-ae443840-7708-4997-938a-b0116ddf9426.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01172233Z-ae443840-7708-4997-938a-b0116ddf9426.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-01172233Z-ae443840-7708-4997-938a-b0116ddf9426.xml",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-01172233Z-ae443840-7708-4997-938a-b0116ddf9426.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01172447Z-62ff99cc-c295-4949-8511-6d01c8ad5187.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01172447Z-62ff99cc-c295-4949-8511-6d01c8ad5187.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-01172447Z-62ff99cc-c295-4949-8511-6d01c8ad5187.xml",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-01172447Z-62ff99cc-c295-4949-8511-6d01c8ad5187.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01172447Z-6720c26a-b29b-4d6e-bd87-9213ae5a08e6.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01172447Z-6720c26a-b29b-4d6e-bd87-9213ae5a08e6.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-01172447Z-6720c26a-b29b-4d6e-bd87-9213ae5a08e6.xml",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-01172447Z-6720c26a-b29b-4d6e-bd87-9213ae5a08e6.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01172447Z-a75bdfde-4e94-4f72-bb6d-d949eb701cb8.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01172447Z-a75bdfde-4e94-4f72-bb6d-d949eb701cb8.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-01172447Z-a75bdfde-4e94-4f72-bb6d-d949eb701cb8.xml",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-01172447Z-a75bdfde-4e94-4f72-bb6d-d949eb701cb8.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01184025Z-8c3907bc-315c-4111-9f71-40d8e4d78e1a.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01184025Z-8c3907bc-315c-4111-9f71-40d8e4d78e1a.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-01184025Z-8c3907bc-315c-4111-9f71-40d8e4d78e1a.xml",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-01184025Z-8c3907bc-315c-4111-9f71-40d8e4d78e1a.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01184026Z-f65ec2e9-271a-451b-8a34-26699570dd0f.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01184026Z-f65ec2e9-271a-451b-8a34-26699570dd0f.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-01184026Z-f65ec2e9-271a-451b-8a34-26699570dd0f.xml",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-01184026Z-f65ec2e9-271a-451b-8a34-26699570dd0f.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01184129Z-b7b67da1-643d-42ac-bea0-108edd4382f1.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01184129Z-b7b67da1-643d-42ac-bea0-108edd4382f1.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-01184129Z-b7b67da1-643d-42ac-bea0-108edd4382f1.xml",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-01184129Z-b7b67da1-643d-42ac-bea0-108edd4382f1.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01184206Z-327cc255-b475-4677-bee8-ede13d12cf1d.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01184206Z-327cc255-b475-4677-bee8-ede13d12cf1d.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-01184206Z-327cc255-b475-4677-bee8-ede13d12cf1d.xml",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-01184206Z-327cc255-b475-4677-bee8-ede13d12cf1d.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01184245Z-991b55fe-358b-4fe8-a189-ca0f80fb3aab.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-01184245Z-991b55fe-358b-4fe8-a189-ca0f80fb3aab.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-01184245Z-991b55fe-358b-4fe8-a189-ca0f80fb3aab.xml",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-01184245Z-991b55fe-358b-4fe8-a189-ca0f80fb3aab.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-02084254Z-57432598-5e15-49e6-8ca7-b20bf5b870e8.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-02084254Z-57432598-5e15-49e6-8ca7-b20bf5b870e8.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-02084254Z-57432598-5e15-49e6-8ca7-b20bf5b870e8.xml",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-02084254Z-57432598-5e15-49e6-8ca7-b20bf5b870e8.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-02084255Z-002a7899-7a06-4e6e-b20c-348109b9f0fe.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-02084255Z-002a7899-7a06-4e6e-b20c-348109b9f0fe.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-02084255Z-002a7899-7a06-4e6e-b20c-348109b9f0fe.xml",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-02084255Z-002a7899-7a06-4e6e-b20c-348109b9f0fe.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-02084255Z-ba5e05c8-793c-4afa-b0b5-8f5e26826bff.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-02084255Z-ba5e05c8-793c-4afa-b0b5-8f5e26826bff.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-02084255Z-ba5e05c8-793c-4afa-b0b5-8f5e26826bff.xml",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-02084255Z-ba5e05c8-793c-4afa-b0b5-8f5e26826bff.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04213726Z-e8487fa6-b485-4d2d-8f74-3da99b25016e.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04213726Z-e8487fa6-b485-4d2d-8f74-3da99b25016e.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-04213726Z-e8487fa6-b485-4d2d-8f74-3da99b25016e.xml",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04213726Z-e8487fa6-b485-4d2d-8f74-3da99b25016e.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04213838Z-b13c8462-7f23-4963-af59-2f2d3adea97e.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04213838Z-b13c8462-7f23-4963-af59-2f2d3adea97e.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-04213838Z-b13c8462-7f23-4963-af59-2f2d3adea97e.xml",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04213838Z-b13c8462-7f23-4963-af59-2f2d3adea97e.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04213850Z-dee43296-d25b-41b8-b373-889a16033b6b.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04213850Z-dee43296-d25b-41b8-b373-889a16033b6b.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-04213850Z-dee43296-d25b-41b8-b373-889a16033b6b.xml",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04213850Z-dee43296-d25b-41b8-b373-889a16033b6b.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04214113Z-25da1b16-aa00-4d33-ad80-3549871617af.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04214113Z-25da1b16-aa00-4d33-ad80-3549871617af.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-04214113Z-25da1b16-aa00-4d33-ad80-3549871617af.xml",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04214113Z-25da1b16-aa00-4d33-ad80-3549871617af.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04214154Z-b50d304b-1820-44c4-8300-a99462ad3688.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04214154Z-b50d304b-1820-44c4-8300-a99462ad3688.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-04214154Z-b50d304b-1820-44c4-8300-a99462ad3688.xml",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04214154Z-b50d304b-1820-44c4-8300-a99462ad3688.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04214204Z-29ee9a1f-8dcb-48fc-a5ff-53806c092006.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04214204Z-29ee9a1f-8dcb-48fc-a5ff-53806c092006.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-04214204Z-29ee9a1f-8dcb-48fc-a5ff-53806c092006.xml",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04214204Z-29ee9a1f-8dcb-48fc-a5ff-53806c092006.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04215744Z-74e3373c-4591-42e2-8443-a77505f394aa.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04215744Z-74e3373c-4591-42e2-8443-a77505f394aa.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-04215744Z-74e3373c-4591-42e2-8443-a77505f394aa.xml",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04215744Z-74e3373c-4591-42e2-8443-a77505f394aa.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04215752Z-0b880975-36fe-49e3-b30c-4201c87e1751.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04215752Z-0b880975-36fe-49e3-b30c-4201c87e1751.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-04215752Z-0b880975-36fe-49e3-b30c-4201c87e1751.xml",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04215752Z-0b880975-36fe-49e3-b30c-4201c87e1751.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04220407Z-8a3e513f-074d-4488-a1a9-4ea699a1a2ea.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04220407Z-8a3e513f-074d-4488-a1a9-4ea699a1a2ea.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-04220407Z-8a3e513f-074d-4488-a1a9-4ea699a1a2ea.xml",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04220407Z-8a3e513f-074d-4488-a1a9-4ea699a1a2ea.xml"
     },
     {
-      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04220527Z-b8a17710-afc5-4ffa-b2d8-3ab2597ee1c1.xml",
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04220527Z-b8a17710-afc5-4ffa-b2d8-3ab2597ee1c1.xml",
       "SourceId": "BotServerApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
       "BasePath": "_content/BotServerApplication",
       "RelativePath": "logs/error-2022-10-04220527Z-b8a17710-afc5-4ffa-b2d8-3ab2597ee1c1.xml",
       "AssetKind": "All",
@@ -831,6 +831,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04220527Z-b8a17710-afc5-4ffa-b2d8-3ab2597ee1c1.xml"
+    },
+    {
+      "Identity": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04221737Z-11df8233-71b0-4b38-9fbe-176197e368d6.xml",
+      "SourceId": "BotServerApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\111\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "BasePath": "_content/BotServerApplication",
+      "RelativePath": "logs/error-2022-10-04221737Z-11df8233-71b0-4b38-9fbe-176197e368d6.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04221737Z-11df8233-71b0-4b38-9fbe-176197e368d6.xml"
     }
   ]
 }
