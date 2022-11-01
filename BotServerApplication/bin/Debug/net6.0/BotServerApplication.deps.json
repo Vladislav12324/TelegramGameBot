@@ -9,7 +9,7 @@
       "BotServerApplication/1.0.0": {
         "dependencies": {
           "ElmahCore": "2.1.2",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.8",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.9",
           "Microsoft.Extensions.Configuration.Json": "6.0.0",
           "Swashbuckle.AspNetCore": "6.2.3",
           "Telegram.Bot": "18.0.0",
@@ -100,28 +100,28 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/6.0.8": {
+      "Microsoft.AspNetCore.JsonPatch/6.0.9": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.JsonPatch.dll": {
-            "assemblyVersion": "6.0.8.0",
-            "fileVersion": "6.0.822.36316"
+            "assemblyVersion": "6.0.9.0",
+            "fileVersion": "6.0.922.41926"
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.8": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.9": {
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "6.0.8",
+          "Microsoft.AspNetCore.JsonPatch": "6.0.9",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
-            "assemblyVersion": "6.0.8.0",
-            "fileVersion": "6.0.822.36316"
+            "assemblyVersion": "6.0.9.0",
+            "fileVersion": "6.0.922.41926"
           }
         }
       },
@@ -471,19 +471,19 @@
       "path": "microsoft.aspnetcore.http.features/2.2.0",
       "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.JsonPatch/6.0.8": {
+    "Microsoft.AspNetCore.JsonPatch/6.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OihHbIG+WAxk0U3jwPxCgh2tQqpeODYis3D0SnwIshpkKoZFhifCwfDNcsTBoppx4Y6ic0dcxkGiHO5NZWtXiw==",
-      "path": "microsoft.aspnetcore.jsonpatch/6.0.8",
-      "hashPath": "microsoft.aspnetcore.jsonpatch.6.0.8.nupkg.sha512"
+      "sha512": "sha512-1d31TnoW0na1vYI0qE/vbrB534CWKo70o3ACGz0N0m/SchcZMKc0D/4WTyI0w0emxx63YiyYKWkkyO+EUbQfeg==",
+      "path": "microsoft.aspnetcore.jsonpatch/6.0.9",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.6.0.9.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.8": {
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2imWU1FEnirRogFvtu+wV11xJuC0u7aNprpNQygQLTZvnSlaLPTJhUUrqskFVn6PRDv3kCE4peaBJKwseNv71w==",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.8",
-      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.8.nupkg.sha512"
+      "sha512": "sha512-8Fpz4d3sxuLSHqe4zby0c4br5kqmFCR7ki1utqvjZo9oK0G+pWqqhgB1f6efSLpseAWGK3xF1aK+7mfvhmcMtA==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.9",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.9.nupkg.sha512"
     },
     "Microsoft.AspNetCore.WebUtilities/2.2.0": {
       "type": "package",

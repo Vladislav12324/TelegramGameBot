@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QGSdDkAtHl4opNke2x4EvroZ5NuuFFCRF+iWOg/o75I=",
+  "Hash": "vXtKtMCnpKXkbwOIqViGQYTLyd528ciyVxmxUAwdvHw=",
   "Source": "BotServerApplication",
   "BasePath": "_content/BotServerApplication",
   "Mode": "Default",
@@ -831,6 +831,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04220527Z-b8a17710-afc5-4ffa-b2d8-3ab2597ee1c1.xml"
+    },
+    {
+      "Identity": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\logs\\error-2022-10-04221737Z-11df8233-71b0-4b38-9fbe-176197e368d6.xml",
+      "SourceId": "BotServerApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\wwwroot\\",
+      "BasePath": "_content/BotServerApplication",
+      "RelativePath": "logs/error-2022-10-04221737Z-11df8233-71b0-4b38-9fbe-176197e368d6.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs\\error-2022-10-04221737Z-11df8233-71b0-4b38-9fbe-176197e368d6.xml"
     }
   ]
 }

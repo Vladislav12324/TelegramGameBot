@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj": {}
+    "C:\\GitUnity\\ImmortalGames\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj": {}
   },
   "projects": {
-    "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj": {
+    "C:\\GitUnity\\ImmortalGames\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
+        "projectUniqueName": "C:\\GitUnity\\ImmortalGames\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
         "projectName": "BotServerApplication",
-        "projectPath": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
+        "projectPath": "C:\\GitUnity\\ImmortalGames\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
         "packagesPath": "C:\\Users\\visne\\.nuget\\packages\\",
-        "outputPath": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\obj\\",
+        "outputPath": "C:\\GitUnity\\ImmortalGames\\TelegramGameBot\\BotServerApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\visne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,7 +46,7 @@
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.9, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",

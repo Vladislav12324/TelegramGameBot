@@ -13,8 +13,12 @@ namespace BotServerApplication.Controllers
         public async Task<IActionResult> Post([FromServices] HandleUpdateService handleUpdateService,
                                           [FromBody] Update update)
         {
-            Console.WriteLine("AAA");
-            await handleUpdateService.EchoAsync(update);
+            if(update.CallbackQuery != null)
+            {
+
+                await handleUpdateService.EchoAsync(update);
+            }
+            
 
             return Ok();
         }

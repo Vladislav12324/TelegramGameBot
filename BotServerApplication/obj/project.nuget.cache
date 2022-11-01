@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "22trhhLJ8tVAp0NaHnKKcu20UkG+9EVC6nRsOSzCrZMb+BJldVZvdo9SFF0bQWBy0p/eJycAiFR2Lq3nODC4dg==",
+  "dgSpecHash": "lhJ5A1fs9dJNmbcrFEaMO9chelUNKoKgsF0GlDwJB/rEXVYAOEOUoUePRpbAyxMg6mSERAJmPqMCTZngKqb08g==",
   "success": true,
-  "projectFilePath": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
+  "projectFilePath": "C:\\GitUnity\\ImmortalGames\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\visne\\.nuget\\packages\\elmahcore\\2.1.2\\elmahcore.2.1.2.nupkg.sha512",
     "C:\\Users\\visne\\.nuget\\packages\\elmahcore.common\\2.1.2\\elmahcore.common.2.1.2.nupkg.sha512",
@@ -13,8 +13,8 @@
     "C:\\Users\\visne\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\visne\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\visne\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
-    "C:\\Users\\visne\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.8\\microsoft.aspnetcore.jsonpatch.6.0.8.nupkg.sha512",
-    "C:\\Users\\visne\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.8\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.8.nupkg.sha512",
+    "C:\\Users\\visne\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.9\\microsoft.aspnetcore.jsonpatch.6.0.9.nupkg.sha512",
+    "C:\\Users\\visne\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.9\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.9.nupkg.sha512",
     "C:\\Users\\visne\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\visne\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\visne\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

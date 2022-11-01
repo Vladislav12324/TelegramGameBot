@@ -156,7 +156,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/6.0.8": {
+      "Microsoft.AspNetCore.JsonPatch/6.0.9": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -173,10 +173,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.8": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.9": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "6.0.8",
+          "Microsoft.AspNetCore.JsonPatch": "6.0.9",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
@@ -1041,10 +1041,10 @@
         "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.JsonPatch/6.0.8": {
-      "sha512": "OihHbIG+WAxk0U3jwPxCgh2tQqpeODYis3D0SnwIshpkKoZFhifCwfDNcsTBoppx4Y6ic0dcxkGiHO5NZWtXiw==",
+    "Microsoft.AspNetCore.JsonPatch/6.0.9": {
+      "sha512": "1d31TnoW0na1vYI0qE/vbrB534CWKo70o3ACGz0N0m/SchcZMKc0D/4WTyI0w0emxx63YiyYKWkkyO+EUbQfeg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.jsonpatch/6.0.8",
+      "path": "microsoft.aspnetcore.jsonpatch/6.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1056,14 +1056,14 @@
         "lib/net6.0/Microsoft.AspNetCore.JsonPatch.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.xml",
-        "microsoft.aspnetcore.jsonpatch.6.0.8.nupkg.sha512",
+        "microsoft.aspnetcore.jsonpatch.6.0.9.nupkg.sha512",
         "microsoft.aspnetcore.jsonpatch.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.8": {
-      "sha512": "2imWU1FEnirRogFvtu+wV11xJuC0u7aNprpNQygQLTZvnSlaLPTJhUUrqskFVn6PRDv3kCE4peaBJKwseNv71w==",
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.9": {
+      "sha512": "8Fpz4d3sxuLSHqe4zby0c4br5kqmFCR7ki1utqvjZo9oK0G+pWqqhgB1f6efSLpseAWGK3xF1aK+7mfvhmcMtA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.8",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1071,7 +1071,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
-        "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.8.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.9.nupkg.sha512",
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
       ]
     },
@@ -2165,7 +2165,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "ElmahCore >= 2.1.2",
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.8",
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.9",
       "Microsoft.Extensions.Configuration.Json >= 6.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "Telegram.Bot >= 18.0.0",
@@ -2178,11 +2178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
+      "projectUniqueName": "C:\\GitUnity\\ImmortalGames\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
       "projectName": "BotServerApplication",
-      "projectPath": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
+      "projectPath": "C:\\GitUnity\\ImmortalGames\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
       "packagesPath": "C:\\Users\\visne\\.nuget\\packages\\",
-      "outputPath": "C:\\GitUnity\\TelegramGameBot\\BotServerApplication\\obj\\",
+      "outputPath": "C:\\GitUnity\\ImmortalGames\\TelegramGameBot\\BotServerApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\visne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2217,7 +2217,7 @@
           },
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
-            "version": "[6.0.8, )"
+            "version": "[6.0.9, )"
           },
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
