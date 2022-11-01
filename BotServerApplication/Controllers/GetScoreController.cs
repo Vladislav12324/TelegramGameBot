@@ -1,19 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BotServerApplication.Controllers;
+using Microsoft.AspNetCore.Mvc;
 using Telegram.Bot;
-
+using Telegram.Bot.Examples.WebHook.Services;
 
 namespace BotServerApplication.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
-    public class GetScoreController : ControllerBase
+    public class GetScoreController: ControllerBase
     {
-
         [HttpPost]
-        public string Post([FromBody] RequestUserData data)
+        public string Post([FromServices] HandleUpdateService handleUpdateService,[FromBody] RequestUserData data)
         {
-            var BotClient = TelegramBotSingleton.TelegramClient;
-            
+            var BotClient = handleUpdateService._botClient;
+
             var hightScores = BotClient.GetGameHighScoresAsync(data.UserId, data.MessageId);
 
             var userScoreList = new List<RequestUserData>();

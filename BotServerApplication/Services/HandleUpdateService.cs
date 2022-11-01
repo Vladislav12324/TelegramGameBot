@@ -9,8 +9,15 @@ namespace Telegram.Bot.Examples.WebHook.Services;
 
 public class HandleUpdateService
 {
-    private readonly ITelegramBotClient _botClient;
+    public readonly ITelegramBotClient _botClient;
     private readonly ILogger<HandleUpdateService> _logger;
+
+    private static readonly string[] stickers =
+        {
+        "CAACAgIAAxkBAAEF_7hjPKYKIlNfxUpRZAJ0-tRg5MQ6wQACAQADwDZPExguczCrPy1RKgQ",
+        "CAACAgIAAxkBAAEF_7pjPKYMaxT8zrXE_W57OpYEvhBMKQACAgADwDZPEwj1bkX6hKdZKgQ",
+        "CAACAgIAAxkBAAEF_7xjPKYN4-NhlHSEHJIZWzCIR8RyWQACFQADwDZPE81WpjthnmTnKgQ"
+    };
 
     public HandleUpdateService(ITelegramBotClient botClient, ILogger<HandleUpdateService> logger)
     {
@@ -20,11 +27,31 @@ public class HandleUpdateService
 
     public async Task EchoAsync(Update update)
     {
-        if(update.CallbackQuery.IsGameQuery)
+        var handler = update.Type switch
         {
-            var gameUrlWithParams = string.Format("https://coingames.site/Game" + "?userId={0}&messageId={1}&chatId={2}",
-                    update.CallbackQuery.From.Id, update.CallbackQuery.InlineMessageId, update.CallbackQuery.ChatInstance);
-            await _botClient.AnswerCallbackQueryAsync(update.CallbackQuery.Id, null, null, gameUrlWithParams);
+            // UpdateType.Unknown:
+            // UpdateType.ChannelPost:
+            // UpdateType.EditedChannelPost:
+            // UpdateType.ShippingQuery:
+            // UpdateType.PreCheckoutQuery:
+            // UpdateType.Poll:
+            UpdateType.Message => BotOnMessageReceived(update.Message!),
+            UpdateType.EditedMessage => BotOnMessageReceived(update.EditedMessage!),
+            UpdateType.CallbackQuery      => BotOnCallbackQueryReceived(update.CallbackQuery!),
+            UpdateType.InlineQuery => BotOnInlineQueryReceived(update.InlineQuery!),
+            UpdateType.ChosenInlineResult => BotOnChosenInlineResultReceived(update.ChosenInlineResult!),
+            _                             => UnknownUpdateHandlerAsync(update)
+        };
+
+        try
+        {
+            await handler;
+        }
+        #pragma warning disable CA1031
+        catch (Exception exception)
+        #pragma warning restore CA1031
+        {
+            await HandleErrorAsync(exception);
         }
     }
 
@@ -36,11 +63,12 @@ public class HandleUpdateService
 
         var action = message.Text!.Split(' ')[0] switch
         {
-            "/inline"   => SendInlineKeyboard(_botClient, message),
-            "/keyboard" => SendReplyKeyboard(_botClient, message),
-            "/remove"   => RemoveKeyboard(_botClient, message),
-            "/photo"    => SendFile(_botClient, message),
-            "/request"  => RequestContactAndLocation(_botClient, message),
+            "/game" => PlayGame(_botClient, message),
+            //"/inline"   => SendInlineKeyboard(_botClient, message),
+            //"/keyboard" => SendReplyKeyboard(_botClient, message),
+            //"/remove"   => RemoveKeyboard(_botClient, message),
+            //"/photo"    => SendFile(_botClient, message),
+            //"/request"  => RequestContactAndLocation(_botClient, message),
             _           => Usage(_botClient, message)
         };
         Message sentMessage = await action;
@@ -130,29 +158,63 @@ public class HandleUpdateService
 
         static async Task<Message> Usage(ITelegramBotClient bot, Message message)
         {
-            const string usage = "Usage:\n" +
-                                 "/inline   - send inline keyboard\n" +
-                                 "/keyboard - send custom keyboard\n" +
-                                 "/remove   - remove custom keyboard\n" +
-                                 "/photo    - send a photo\n" +
-                                 "/request  - request location or contact";
 
-            return await bot.SendTextMessageAsync(chatId: message.Chat.Id,
-                                                  text: usage,
-                                                  replyMarkup: new ReplyKeyboardRemove());
+            if ("игра" == message.Text)
+            {
+                return await bot.SendGameAsync(
+                    chatId: message!.Chat.Id,
+                    gameShortName: "ufo");
+            }
+
+            return await bot.SendTextMessageAsync(
+                chatId: message!.Chat.Id,
+                text: $"Для получения игры нажмите /game");
+            //const string usage = "Usage:\n" +
+            //                     "/inline   - send inline keyboard\n" +
+            //                     "/keyboard - send custom keyboard\n" +
+            //                     "/remove   - remove custom keyboard\n" +
+            //                     "/photo    - send a photo\n" +
+            //                     "/request  - request location or contact";
+
+            //return await bot.SendTextMessageAsync(chatId: message.Chat.Id,
+            //                                      text: usage,
+            //                                      replyMarkup: new ReplyKeyboardRemove());
         }
+    }
+
+    private async Task<Message> PlayGame(ITelegramBotClient bot, Message message)
+    {
+        return await bot.SendGameAsync(
+                   chatId: message!.Chat.Id,
+                   gameShortName: "ufo");
+
     }
 
     // Process Inline Keyboard callback data
     private async Task BotOnCallbackQueryReceived(CallbackQuery callbackQuery)
     {
-        await _botClient.AnswerCallbackQueryAsync(
-            callbackQueryId: callbackQuery.Id,
-            text: $"Received {callbackQuery.Data}");
+        if (callbackQuery.IsGameQuery)
+        {
+            var gameUrlWithParams = string.Format(new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("BotConfiguration")["GameHref"] + "?userId={0}&messageId={1}&chatId={2}",
+                    callbackQuery.From.Id, callbackQuery.InlineMessageId, callbackQuery.ChatInstance);
 
-        await _botClient.SendTextMessageAsync(
-            chatId: callbackQuery.Message!.Chat.Id,
-            text: $"Received {callbackQuery.Data}");
+            await _botClient.AnswerCallbackQueryAsync(
+                callbackQueryId: callbackQuery.Id,
+                url: gameUrlWithParams);
+        }
+        else
+        {
+
+            await _botClient.AnswerCallbackQueryAsync(
+                callbackQueryId: callbackQuery.Id,
+                text: $"Received {callbackQuery.Data}");
+
+            await _botClient.SendTextMessageAsync(
+                chatId: callbackQuery.Message!.Chat.Id,
+                text: $"Received {callbackQuery.Data}");
+
+        }
+            
     }
 
     #region Inline Mode
@@ -163,12 +225,9 @@ public class HandleUpdateService
 
         InlineQueryResult[] results = {
             // displayed result
-            new InlineQueryResultArticle(
+            new InlineQueryResultGame(
                 id: "3",
-                title: "TgBots",
-                inputMessageContent: new InputTextMessageContent(
-                    "hello"
-                )
+                gameShortName:"ufo"
             )
         };
 

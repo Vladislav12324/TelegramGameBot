@@ -3,8 +3,8 @@ using System.Net;
 
 namespace BotServerApplication.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class GetImageController : ControllerBase
     {
         [HttpGet]

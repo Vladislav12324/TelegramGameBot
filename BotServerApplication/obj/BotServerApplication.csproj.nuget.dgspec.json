@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\GitUnity\\ImmortalGames\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj": {}
   },
   "projects": {
@@ -12,9 +13,22 @@
         "projectPath": "C:\\GitUnity\\ImmortalGames\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
         "packagesPath": "C:\\Users\\visne\\.nuget\\packages\\",
         "outputPath": "C:\\GitUnity\\ImmortalGames\\TelegramGameBot\\BotServerApplication\\obj\\",
+=======
+    "D:\\111\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj": {}
+  },
+  "projects": {
+    "D:\\111\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\111\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
+        "projectName": "BotServerApplication",
+        "projectPath": "D:\\111\\TelegramGameBot\\BotServerApplication\\BotServerApplication.csproj",
+        "packagesPath": "C:\\Users\\vladk\\.nuget\\packages\\",
+        "outputPath": "D:\\111\\TelegramGameBot\\BotServerApplication\\obj\\",
+>>>>>>> 2fe8eacb1b50ae084a3207bc2e5f8f8af42e1566
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\visne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vladk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,8 +85,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -84,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,9 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BotServerApplication
 build_property.RootNamespace = BotServerApplication
+<<<<<<< HEAD
 build_property.ProjectDir = C:\GitUnity\ImmortalGames\TelegramGameBot\BotServerApplication\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\GitUnity\ImmortalGames\TelegramGameBot\BotServerApplication
+=======
+build_property.ProjectDir = D:\111\TelegramGameBot\BotServerApplication\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\111\TelegramGameBot\BotServerApplication
+>>>>>>> 2fe8eacb1b50ae084a3207bc2e5f8f8af42e1566
 build_property._RazorSourceGeneratorDebug = 
